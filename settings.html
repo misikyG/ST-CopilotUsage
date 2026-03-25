@@ -1,7 +1,7 @@
 <div class="copilot-usage-settings">
     <div class="inline-drawer">
         <div class="inline-drawer-toggle inline-drawer-header">
-            <b>Copilot Usage Monitor</b>
+            <b><svg class="copilot-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.75 14a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75m4.5 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75" fill="currentColor"/><path d="M12 2c2.214 0 4.248.657 5.747 1.756.136.099.268.204.397.312.584.493 1.608 1.453 2.226 2.792A7.1 7.1 0 0 1 21 9.5v3.886c0 1.47-.576 2.882-1.602 3.924l-.36.366c-.547.556-1.07 1.09-2.038 1.324-.348.085-1.072.262-1.25.304a16 16 0 0 1-3.75.446 16 16 0 0 1-3.75-.446c-.178-.042-.902-.22-1.25-.304-.968-.234-1.49-.768-2.038-1.324l-.36-.366A5.56 5.56 0 0 1 3 13.386V9.5a7.1 7.1 0 0 1 .63-2.64c.618-1.339 1.642-2.3 2.226-2.792a6 6 0 0 1 .397-.312C7.752 2.657 9.786 2 12 2m-4.347 4.36A3.75 3.75 0 0 0 4.5 9.878v3.508a4.06 4.06 0 0 0 1.17 2.864l.36.366c.387.394.673.685 1.278.831.222.054.937.23 1.193.292a14.5 14.5 0 0 0 6.998 0c.256-.063.971-.238 1.193-.292.605-.146.89-.437 1.279-.831l.36-.366A4.06 4.06 0 0 0 19.5 13.386V9.878a3.75 3.75 0 0 0-3.153-3.518A15.8 15.8 0 0 0 12 5.875c-1.467 0-2.97.18-4.347.485" fill="currentColor"/></svg> Copilot Usage Monitor</b>
             <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
         </div>
         <div class="inline-drawer-content">
@@ -23,12 +23,11 @@
                         <span id="copilot_plan_label" class="copilot-plan-label"></span>
                         <span id="copilot_usage_summary" class="copilot-usage-summary"></span>
                     </div>
-                    <div class="copilot-progress-bar-wrapper">
-                        <div id="copilot_progress_bar" class="copilot-progress-bar" style="width: 0%;"></div>
-                    </div>
-                    <div class="copilot-progress-footer">
-                        <span id="copilot_reset_date" class="copilot-reset-date" style="display:none;"></span>
-                        <div id="copilot_refresh_btn" class="menu_button menu_button_icon" title="重新整理">
+                    <div class="copilot-progress-row">
+                        <div class="copilot-progress-bar-wrapper">
+                            <div id="copilot_progress_bar" class="copilot-progress-bar" style="width: 0%;"></div>
+                        </div>
+                        <div id="copilot_refresh_btn" class="copilot-refresh-btn" title="重新整理">
                             <i class="fa-solid fa-arrows-rotate"></i>
                         </div>
                     </div>

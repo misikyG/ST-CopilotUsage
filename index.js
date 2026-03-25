@@ -88,13 +88,6 @@ function updateDisplay(used, limit, planLabel, resetDate) {
     $('#copilot_progress_bar')
         .css('width', `${Math.max(pct, 2)}%`)
         .attr('class', 'copilot-progress-bar' + (pct >= 90 ? ' danger' : pct >= 70 ? ' warning' : ''));
-
-    if (resetDate) {
-        const dateStr = resetDate.split('T')[0]; // "2026-04-01"
-        $('#copilot_reset_date').text(`重置日期: ${dateStr}`).show();
-    } else {
-        $('#copilot_reset_date').hide();
-    }
 }
 
 function showStatus(msg, type) {
