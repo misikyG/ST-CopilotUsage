@@ -4,6 +4,11 @@
     font-family: inherit;
 }
 
+.copilot-usage-settings .inline-drawer-header svg {
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
 .copilot-usage_block {
     margin: 8px 0;
 }
